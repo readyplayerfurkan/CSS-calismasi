@@ -5,39 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oyun Tavsiyeleri</title>
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./asset/style/main.css">
 </head>
 <body>
     
     <!-- header start -->
 
-    <header>
-        <h1>Oyun Tavsiyeleri</h1>
-        <ul>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="tavsiye.html">Tavsiye Oyunlar</a></li>
-            <li><a href="cikis.html">Bu Sene Çıkış Yapacaklar</a></li>
-        </ul>
+    <header class="">
+        <div class="container-fluid mb-5">
+            <div class="row">
+                <a class="col-sm-4 display-6 text-center p-3" href="index.html">Ana Sayfa</a>
+                <a class="col-sm-4 display-6 text-center p-3" href="tavsiye.html">Tavsiye Oyunlar</a>
+                <a class="col-sm-4 display-6 text-center p-3" href="cikis.html">Bu Sene Çıkış Yapacaklar</a>
+            </div>
+        </div>
     </header>
 
     <!-- header end -->
 
     <!-- main start -->
 
-    <section>
-        <article>
-           <h2>Hoşgeldiniz!</h2>
-           <p>Uzun zamandır oyunlardan zevk alamıyor musunuz? Ne oynasam diye kara kara düşünüyor musunuz? O zaman bu site tam size göre!</p>
-           <p>Hemen <a href="tavsiye.html">Tavsiye Oyunlar</a> sayfamıza gidip zevkine göre bir oyun seçebilir ve bu sıkıntıdan kendini kurtarabilirsin!</p>
+    <section class="container homepage">
+        <article class="jumbotron text-center mt-5">
+           <h1 class="display-1">Hoşgeldin Oyun-sever!</h1>
+           <p>Bu site senin için yapıldı!</p>
+           <p>Uzun zamandır oyunlardan zevk alamıyor musun? Ne oynasam diye kara kara düşünüyor musun? O zaman bu site tam sana göre!</p>
+           <p>Hemen <a href="tavsiye.html">Tavsiye Oyunlar</a> sayfasına gidip zevkine göre bir oyun seçebilir ve bu sıkıntıdan kendini kurtarabilirsin!</p>
            <h3>Hadi! Daha ne duruyorsun öyleyse?</h3>
         </article>
     </section>
-    <img src="https://i0.wp.com/shiftdelete.net/wp-content/uploads/2021/10/god-of-war-pc-surumunden-yeni-bilgiler-ortaya-cikti.jpg?fit=1280%2C720&ssl=1" alt="kratosun resmi">
+    
 
     <!-- main end -->
 
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
 </body>
 </html>

@@ -1,0 +1,138 @@
+body {
+  background-color: #632626;
+  color: #BF8B67;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+header .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .row a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: goldenrod;
+  background-color: #9D5353;
+  white-space: none;
+  font-family: 'Rowdies', cursive;
+  -webkit-box-shadow: 0px 1px 1px 0px #632626 inset;
+          box-shadow: 0px 1px 1px 0px #632626 inset;
+}
+
+header .row a:hover {
+  background-color: #BF8B67;
+}
+
+/* Main */
+.homepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage article h1 {
+  color: goldenrod;
+}
+
+.homepage article p a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.homepage article p a:hover {
+  text-decoration: underline;
+}
+
+/* Tavsiye */
+.tavsiye article h1, .tavsiye article h2, .tavsiye article h3, .tavsiye article h5, .tavsiye article h6 {
+  color: goldenrod;
+}
+
+.tavsiye article h4 {
+  color: #EEC373;
+}
+
+.tavsiye article ul {
+  list-style: none;
+}
+
+.tavsiye article ul li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.tavsiye article ul li a {
+  color: goldenrod;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tavsiye article ul li a:hover {
+  text-decoration: underline;
+}
+
+.tavsiye article p {
+  font-size: 20px;
+}
+
+.tavsiye .ar {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tavsiye .ar-2 {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Cikis */
+.cikis article h2 {
+  color: goldenrod;
+}
+
+.cikis article li h1, .cikis article li h2, .cikis article li h3, .cikis article li h4, .cikis article li h5, .cikis article li h6 {
+  color: #EEC373;
+}
+
+.cikis article li h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

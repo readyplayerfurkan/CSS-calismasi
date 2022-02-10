@@ -1,0 +1,115 @@
+body {
+    background-color:  #632626;
+    color: #BF8B67;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header {
+    .row { 
+        display: flex;
+        justify-content: space-between;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: goldenrod;
+            background-color: #9D5353;
+            white-space: none;
+            font-family: 'Rowdies', cursive;
+            box-shadow: 0px 1px 1px 0px #632626 inset;
+            }
+        a:hover {
+                background-color: #BF8B67;
+            }
+        }
+    }
+
+/* Main */
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    article {
+        h1 {
+            color: goldenrod;
+        }
+        p {
+            a {
+                color: goldenrod;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* Tavsiye */
+
+.tavsiye {
+    article {
+        h1, h2, h3, h5, h6 {
+            color: goldenrod;
+        }
+
+        h4 {
+            color: #EEC373;
+        }
+
+        ul {
+            list-style: none;
+            li {
+                margin-bottom: 10px;
+                text-align: center;
+                a {
+                    color: goldenrod;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .ar {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ar-2 {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Cikis */
+
+.cikis {
+    article {
+        h2 {
+            color: goldenrod;
+        }
+        li {
+            h1, h2, h3, h4, h5, h6 {
+            color: #EEC373;
+            }
+            h3 {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
