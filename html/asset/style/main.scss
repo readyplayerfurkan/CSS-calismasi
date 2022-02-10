@@ -113,3 +113,15 @@ header {
         }
     }
 }
+
+/* İlave Classlar */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #9D5353;
+}

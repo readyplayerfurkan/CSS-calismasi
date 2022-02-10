@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #632626;
   color: #BF8B67;
@@ -134,5 +135,22 @@ header .row a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+/* İlave Classlar */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background-color: #9D5353;
 }
 /*# sourceMappingURL=main.css.map */
